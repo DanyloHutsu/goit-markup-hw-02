@@ -1,5 +1,7 @@
 .body{
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .header-logo{
@@ -26,7 +28,12 @@
 .nav-menu-list{
         list-style-type: none;
 }
+
 .nav-menu-list :hover{
+    color: #404bbf;
+}
+
+.nav-menu-list :focus{
     color: #404bbf;
 }
 
@@ -40,11 +47,19 @@
         text-decoration: none;
 }
 
+.header-addres{
+    font-style: normal;
+}
+
 .header-contacts{
     list-style-type: none;
 }
 
 .contacts-list :hover{
+    color: #404bbf;
+}
+
+.contacts-list :focus{
     color: #404bbf;
 }
 
@@ -73,9 +88,21 @@
 }
 
 .hero-btn{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
     cursor: pointer;
+}
+
+.hero-btn :hover{
+    color: #404BBF;
+}
+
+.hero-btn :focus{
+    color: #404BBF;
 }
 
 .experience-items{
@@ -97,6 +124,10 @@
         color: #434455;
 }
 
+.team{
+    background-color: #F4F4FD;
+}
+
 .title-team{
         font-weight: 700;
         font-size: 36px;
@@ -104,10 +135,12 @@
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .team-items{
     list-style-type: none;
+    background-color: #FFFFFF;
 }
 
 .name{
@@ -127,8 +160,22 @@
         color: #434455;
 }
 
+.portfolio{
+    background-color: #F4F4FD;
+}
+
+.title-porfolio{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+
 .portfolio-items{
     list-style-type: none;
+    background-color: #FFFFFF;
 }
 
 .name-items{
