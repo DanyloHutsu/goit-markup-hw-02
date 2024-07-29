@@ -96,14 +96,15 @@
     color: #fff;
     background: #4d5ae5;
     cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn :hover{
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
 .hero-btn :focus{
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
 .experience-items{
@@ -172,6 +173,7 @@
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-items{
