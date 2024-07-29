@@ -1,7 +1,7 @@
 .body{
-    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
 }
 
 .header-logo{
@@ -47,7 +47,7 @@
         text-decoration: none;
 }
 
-.header-addres{
+.address-nav{
     font-style: normal;
 }
 
@@ -88,6 +88,7 @@
 }
 
 .hero-btn{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 150%;
@@ -98,11 +99,11 @@
 }
 
 .hero-btn :hover{
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .hero-btn :focus{
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .experience-items{
@@ -164,13 +165,13 @@
     background-color: #F4F4FD;
 }
 
-.title-porfolio{
+.title-portfolio{
     font-weight: 700;
-        font-size: 36px;
-        line-height: 111%;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .portfolio-items{
