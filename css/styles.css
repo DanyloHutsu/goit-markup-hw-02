@@ -4,6 +4,13 @@
     font-family: "Roboto", sans-serif;
 }
 
+.header{
+    border-bottom: 1px solid #e7e9fc;
+        width: 1440px;
+        height: 72px;
+        background: #fff;
+}
+
 .header-logo{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -64,6 +71,7 @@
 }
 
 .contacts-text{
+    font-weight: 400;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
@@ -127,6 +135,8 @@
 }
 
 .team{
+    width: 1440px;
+        height: 732px;
     background-color: #F4F4FD;
 }
 
